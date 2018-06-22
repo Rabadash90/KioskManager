@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ch.alexandrahauri.kiosk.controller.ArticleSelectionController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+        <Label layoutX="16.0" layoutY="33.0" text="Select Article" textFill="BLACK">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <!--<TableView fx:id="tableview" layoutX="17.0" layoutY="81.0" prefHeight="345.0" prefWidth="521.0"/>!-->
+        <TableView fx:id="tableview"  prefWidth="600.0" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <columns>
+                <TableColumn text="Selected" prefWidth="100">
+                    <cellValueFactory><PropertyValueFactory property="isSelected" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Article" prefWidth="100">
+                    <cellValueFactory><PropertyValueFactory property="articleName" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Cost/pcs." prefWidth="100">
+                    <cellValueFactory><PropertyValueFactory property="articleCost" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Stock" prefWidth="100">
+                    <cellValueFactory><PropertyValueFactory property="articleInStock" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Quantity" prefWidth="100">
+                    <cellValueFactory><PropertyValueFactory property="quantity" />
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+        </TableView>
+        <Button  fx:id="buyArticlesButton" layoutX="300.0" layoutY="442.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="167.0" text="Buy" onAction="#handleSubmitBuyArticlesButtonAction"/>
+        <Button  fx:id="cancelButton" layoutX="100.0" layoutY="442.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="167.0" text="Cancel" onAction="#handleCancelButtonAction"/>
+    </children>
+</AnchorPane>

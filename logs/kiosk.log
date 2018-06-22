@@ -1,0 +1,89 @@
+21:51:29.625 [JavaFX Application Thread] %PARSER_ERROR[lever] ch.alexandrahauri.kiosk.MainKiosk - start stage
+21:51:34.577 [JavaFX Application Thread] %PARSER_ERROR[lever] ch.alexandrahauri.kiosk.MainKiosk - start stage
+21:51:56.745 [JavaFX Application Thread] %PARSER_ERROR[lever] ch.alexandrahauri.kiosk.MainKiosk - start stage
+21:52:04.604 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.CustomerInformationController - clicked submit client button
+21:52:04.619 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticlesSelectionController - initialize Articles
+21:52:09.576 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticlesSelectionController - clicked on buyArticle button
+21:52:20.868 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.CustomerInformationController - clicked submit client button
+21:52:20.881 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticlesSelectionController - initialize Articles
+21:59:11.312 [JavaFX Application Thread] %PARSER_ERROR[lever] ch.alexandrahauri.kiosk.MainKiosk - start stage
+21:59:41.081 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.CustomerInformationController - clicked submit client button
+21:59:41.096 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticlesSelectionController - initialize Articles
+22:02:03.549 [JavaFX Application Thread] %PARSER_ERROR[lever] ch.alexandrahauri.kiosk.MainKiosk - start stage
+22:07:49.722 [JavaFX Application Thread] %PARSER_ERROR[lever] ch.alexandrahauri.kiosk.MainKiosk - start stage
+22:07:58.824 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Creating Meier
+22:07:58.824 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Starting Meier
+22:07:58.824 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Creating Simon
+22:07:58.824 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Starting Simon
+22:07:58.824 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Creating Brenn
+22:07:58.824 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Starting Brenn
+22:07:58.824 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Creating Apfel
+22:07:58.824 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Starting Apfel
+22:07:58.825 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Creating Kaeufer
+22:07:58.825 [Brenn] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Running Brenn
+22:07:58.825 [Simon] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Running Simon
+22:07:58.825 [Meier] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Running Meier
+22:07:58.825 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Starting Kaeufer
+22:07:58.825 [Apfel] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Running Apfel
+22:07:58.825 [Kaeufer] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Running Kaeufer
+22:07:59.827 [Simon] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Created customer  Simon
+22:07:59.827 [Brenn] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Created customer  Brenn
+22:07:59.827 [Apfel] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Created customer  Apfel
+22:07:59.827 [Meier] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Created customer  Meier
+22:07:59.827 [Kaeufer] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Created customer  Kaeufer
+22:08:01.827 [Apfel] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Customer in QueueApfel
+22:08:01.827 [Simon] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Customer in QueueSimon
+22:08:01.827 [Brenn] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Customer in QueueBrenn
+22:08:01.828 [Meier] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Customer in QueueMeier
+22:08:01.828 [Kaeufer] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Customer in QueueKaeufer
+22:08:06.827 [Apfel] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Bought Articles Apfel
+22:08:06.828 [Brenn] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Bought Articles Brenn
+22:08:06.828 [Simon] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Bought Articles Simon
+22:08:06.828 [Apfel] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Thread Apfel exiting.
+22:08:06.828 [Meier] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Bought Articles Meier
+22:08:06.828 [Kaeufer] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Bought Articles Kaeufer
+22:08:06.828 [Brenn] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Thread Brenn exiting.
+22:08:06.828 [Simon] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Thread Simon exiting.
+22:08:06.829 [Meier] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Thread Meier exiting.
+22:08:06.829 [Kaeufer] %PARSER_ERROR[lever] c.a.kiosk.business.ThreadBuy - Thread Kaeufer exiting.
+22:30:36.903 [JavaFX Application Thread] %PARSER_ERROR[lever] ch.alexandrahauri.kiosk.MainKiosk - start stage
+22:30:43.873 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.CustomerInformationController - clicked submit client button
+22:30:43.887 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - initialize Articles
+22:30:49.637 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - clicked on buyArticle button
+22:30:55.669 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.CustomerInformationController - clicked submit client button
+22:30:55.681 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - initialize Articles
+22:31:02.943 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - clicked on buyArticle button
+22:31:10.105 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.CustomerInformationController - clicked submit client button
+22:31:10.115 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - initialize Articles
+22:31:15.097 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - clicked on buyArticle button
+22:31:16.277 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - initialize Articles
+22:31:23.547 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - clicked on buyArticle button
+22:31:23.548 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.Kiosk - Shoppi setted cash to 985.0
+22:31:28.687 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.CustomerInformationController - clicked submit client button
+22:31:28.697 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - initialize Articles
+22:32:17.318 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.CustomerInformationController - clicked submit client button
+22:32:17.327 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - initialize Articles
+23:01:42.443 [JavaFX Application Thread] %PARSER_ERROR[lever] ch.alexandrahauri.kiosk.MainKiosk - start stage
+23:15:15.510 [JavaFX Application Thread] %PARSER_ERROR[lever] ch.alexandrahauri.kiosk.MainKiosk - start stage
+23:24:27.367 [JavaFX Application Thread] %PARSER_ERROR[lever] ch.alexandrahauri.kiosk.MainKiosk - start stage
+23:24:30.220 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - initialize Articles
+23:24:38.396 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - clicked on buyArticle button
+23:24:38.397 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.KioskManager - Kiosk has 1000.0 and wants to buy articles with the total cost of 1500.0.
+23:25:47.607 [JavaFX Application Thread] %PARSER_ERROR[lever] ch.alexandrahauri.kiosk.MainKiosk - start stage
+23:25:50.700 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - initialize Articles
+23:25:59.708 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - clicked on buyArticle button
+23:25:59.709 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.Kiosk - Shoppi setted cash to 500.0
+23:26:02.952 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - initialize Articles
+23:26:10.189 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - clicked on buyArticle button
+23:26:10.189 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.Kiosk - Shoppi setted cash to 0.0
+23:26:11.463 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - initialize Articles
+23:26:16.708 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - clicked on buyArticle button
+23:26:16.709 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.kiosk.business.KioskManager - Kiosk has 0.0 and wants to buy articles with the total cost of 5.0.
+00:27:46.284 [JavaFX Application Thread] %PARSER_ERROR[lever] ch.alexandrahauri.kiosk.MainKiosk - start stage
+00:28:03.760 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.CustomerInformationController - clicked submit client button
+00:28:03.778 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - initialize Articles
+00:28:23.884 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - clicked on buyArticle button
+00:28:33.150 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - clicked on buyArticle button
+00:28:49.352 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.CustomerInformationController - clicked submit client button
+00:28:49.363 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - initialize Articles
+00:29:04.212 [JavaFX Application Thread] %PARSER_ERROR[lever] c.a.k.c.ArticleSelectionController - clicked on buyArticle button

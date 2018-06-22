@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../jars/poi-3.17/osgi/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../jars/poi-3.17/osgi/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../jars/poi-3.17/src/contrib/poi-ruby/java" />
+      <root url="file://$PROJECT_DIR$/../../../jars/poi-3.17/src/examples/src" />
+      <root url="file://$PROJECT_DIR$/../../../jars/poi-3.17/src/excelant/java" />
+      <root url="file://$PROJECT_DIR$/../../../jars/poi-3.17/src/excelant/testcases" />
+      <root url="file://$PROJECT_DIR$/../../../jars/poi-3.17/src/integrationtest" />
+      <root url="file://$PROJECT_DIR$/../../../jars/poi-3.17/src/java" />
+      <root url="file://$PROJECT_DIR$/../../../jars/poi-3.17/src/ooxml/java" />
+      <root url="file://$PROJECT_DIR$/../../../jars/poi-3.17/src/ooxml/testcases" />
+      <root url="file://$PROJECT_DIR$/../../../jars/poi-3.17/src/scratchpad/src" />
+      <root url="file://$PROJECT_DIR$/../../../jars/poi-3.17/src/scratchpad/testcases" />
+      <root url="file://$PROJECT_DIR$/../../../jars/poi-3.17/src/testcases" />
+    </SOURCES>
+  </library>
+</component>

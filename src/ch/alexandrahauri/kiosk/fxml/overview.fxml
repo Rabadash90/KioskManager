@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+    <?import javafx.scene.text.*?>
+    <?import javafx.scene.control.*?>
+    <?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<AnchorPane id="AnchorPane" fx:id="deleteRows" prefHeight="492.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.alexandrahauri.kiosk.controller.OverviewController">
+        <children>
+            <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+            <Label layoutX="16.0" layoutY="33.0" text="Übersicht" textFill="BLACK">
+                <font>
+                    <Font name="System Bold" size="24.0" />
+                </font>
+            </Label>
+            <!--<TableView fx:id="tableview" layoutX="17.0" layoutY="81.0" prefHeight="345.0" prefWidth="521.0"/>!-->
+            <TableView fx:id="tableview"  GridPane.columnIndex="0" GridPane.rowIndex="1">
+                <columns>
+                    <TableColumn text="Kiosk Name" prefWidth="100">
+                        <cellValueFactory><PropertyValueFactory property="name" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="State" prefWidth="100">
+                        <cellValueFactory><PropertyValueFactory property="open" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="Buy from Kiosk" prefWidth="100">
+                        <cellValueFactory><PropertyValueFactory property="sellArticle" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="Order Articles" prefWidth="100">
+                        <cellValueFactory><PropertyValueFactory property="orderArticle" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="Export Inventory" prefWidth="100">
+                        <cellValueFactory><PropertyValueFactory property="inventory" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="Automatic Test" prefWidth="100">
+                        <cellValueFactory><PropertyValueFactory property="automaticTest" />
+                        </cellValueFactory>
+                    </TableColumn>
+                </columns>
+            </TableView>
+            <Button  fx:id="createKioskButton" layoutX="185.0" layoutY="442.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="167.0" text="Kiosk erstellen" onAction="#handleSubmitButtonAction"/>
+        </children>
+    </AnchorPane>
